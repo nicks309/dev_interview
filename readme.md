@@ -21,7 +21,7 @@ input based on their requirements. Throw an exception if any data is invalid.
      - is optional
      - is a twitter handle
 
- The input data will be in the following format:
+The input data will be in the following format:
 
 ```
 $input = [
