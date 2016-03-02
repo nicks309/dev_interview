@@ -11,15 +11,15 @@ Please fork this repository, respond to the following problems in the correspond
 Given the following input values from a form, create a method or methods to validate the
 input based on their requirements. Throw an exception if any data is invalid.
 
-> - name
->     - is required
->     - must be first name AND last name
-> - email
->     - is required
->     - is a valid email address
-> - twitter
->     - is optional
->     - is a twitter handle
+ - name
+     - is required
+     - must be first name AND last name
+ - email
+     - is required
+     - is a valid email address
+ - twitter
+     - is optional
+     - is a twitter handle
 
  The input data will be in the following format:
 
@@ -66,19 +66,19 @@ while($i < count($arr)) {
 
 Design a database schema for a simple order management system that describe the following entities and their relationships (create as many tables as necessary). Please use any tools you prefer, and deliver the result as a complete dump file in problem4.sql.
 
-> - product
->     - has a name
->     - has a SKU
->     - has a price
-> - order
->     - has a date
->     - can have many products
->     - can have multiple quantity of the same product
->     - belongs to a customer
-> - customer
->     - has a name
->     - has an email
->     - can have many orders
+ - product
+     - has a name
+     - has a SKU
+     - has a price
+ - order
+     - has a date
+     - can have many products
+     - can have multiple quantity of the same product
+     - belongs to a customer
+ - customer
+     - has a name
+     - has an email
+     - can have many orders
 
 ## Problem 5 (MySQL, PHP)
 
