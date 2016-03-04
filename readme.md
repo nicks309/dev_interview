@@ -8,8 +8,7 @@ Please fork this repository, respond to the following problems in the correspond
 
 ## Problem 1 (PHP)
 
-Given the following input values from a form, create a method or methods to validate the
-input based on their requirements. Throw an exception if any data is invalid.
+Given the following input values from a form, create a method or methods to validate the input based on their requirements. Throw an exception if any data is invalid.
 
  - name
      - is required
@@ -39,7 +38,7 @@ Given an array of `$employees` with their names and age:
 $employees = array('Travis' => 29, 'John' => 30, 'Manny' => 24, 'Gabriel' => 20, 'Yogi' => 22);
 ```
 
-Generate a JSON formatted output with the names ordered alphabetically. An example output is given:
+Write a function to generate a JSON formatted output with the names ordered alphabetically. An example output is given:
 ```
 [
     {
