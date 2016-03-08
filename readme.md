@@ -51,7 +51,7 @@ Write a function to generate a JSON formatted output with the names ordered alph
 
 ## Problem 3 (PHP)
 
-Rewrite the following PHP statement:
+Imagine you saw the following code in a project. How would you improve it?
 ```
 $arr = array('foo', 'bar', 'baz');
 $i = 0;
