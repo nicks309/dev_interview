@@ -7,7 +7,7 @@
 	$employees = array('Travis' => 29, 'John' => 30, 'Manny' => 24, 'Gabriel' => 20, 'Yogi' => 22);
 	ksort($employees);
 	echo "<pre>";
-	echo json_encode($employees,JSON_PRETTY_PRINT);
+	echo json_encode($employees, JSON_PRETTY_PRINT);
 	echo "</pre>";
 ?>
 </body>
